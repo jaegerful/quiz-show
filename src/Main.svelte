@@ -14,7 +14,7 @@
 <main>
     <div id = "question-outer">
         <div id = 'question-inner'>
-            <span id = 'question-number'>{`${index + 1} .`}</span>
+            <span id = 'question-number'>{`${index + 1}.`}</span>
             <span>{questions[index]['prompt']}</span>
         </div>
     </div>
