@@ -12,7 +12,12 @@
 </script>
 
 <main>
-    <div id = 'question'>{questions[index]['prompt']}</div>
+    <div id = "question-outer">
+        <div id = 'question-inner'>
+            <span id = 'question-number'>{`${index + 1} .`}</span>
+            <span>{questions[index]['prompt']}</span>
+        </div>
+    </div>
     <div id = 'answer' class:open>
         <div id = 'header' on:click = {toggle} on:keydown = {toggle}>
             <span id = 'header-text'>Answer:</span>
@@ -32,7 +37,7 @@
         margin-inline: 8vw;
     }
 
-    #question {
+    #question-outer {
         min-height: 30vh;
 
         border-radius: 0.5em;
@@ -42,11 +47,15 @@
         font-weight: 500;
         font-size: 3em;
 
-        display: flex;
-        place-items: center;
-
         margin-top: 2vh;
         margin-bottom: 4vh;
+
+        display: flex;
+        place-items: center;
+    }
+
+    #question-number {
+        font-weight: 200;
     }
 
     #answer {
