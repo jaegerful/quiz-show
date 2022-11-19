@@ -22,13 +22,14 @@
 <style>
     div {
         width: 100%;
+        z-index: -1;
 
         display: flex;
         justify-content: space-around;
 
         position: fixed;
         bottom: 0;
-
+        
         margin-bottom: 5vh;
     }
 
