@@ -1,5 +1,5 @@
 <script>
-    let seconds = 10
+    let seconds = 40
 
     const timer = () => {
         --seconds
@@ -9,7 +9,7 @@
     }
 </script>
 
-<button on:click = {timer}>00:{(seconds === 10) ? seconds : `0${seconds}`}</button> 
+<button on:click = {timer}>00:{(seconds >= 10) ? seconds : `0${seconds}`}</button> 
 
 <style>
     button {
