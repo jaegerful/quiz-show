@@ -40,7 +40,7 @@ export const questions = [
         answer: "The waters stood still and rose in a heap",
     },
     {
-        prompt: "According to Jos. 4:1, what the people had completely crossed when the Lord spoke to Joshua?",
+        prompt: "According to Jos. 4:1, what had the people completely crossed when the Lord spoke to Joshua?",
         answer: "The Jordan",
     },
     {
@@ -48,8 +48,8 @@ export const questions = [
         answer: "Twelve",
     },
     {
-        prompt: "According to Joshua 4:2, specify where was Joshua to take the twelve men from?",
-        answer: "From each tribe",
+        prompt: "According to Joshua 4:2, from how many tribes was Joshua supposed to pick twelve men from?",
+        answer: "From each tribe (all the tribes)",
     },
     {
         prompt: "According to Joshua 4:3, what were the twelve men to take for themselves?",
@@ -73,7 +73,7 @@ export const questions = [
     },
     {
         prompt: "According to Joshua 4:6, when would the stones serve as a sign?",
-        answer: "When their children asked what they mean.",
+        answer: "When their children asked what the stones meant.",
     },
     {
         prompt: "According to Joshua 4:7, what were the stones to be for the children of Israel?",
@@ -97,11 +97,11 @@ export const questions = [
     },
     {
         prompt: "According to Joshua 4:14, when God exalted Joshua how did Israel feel about him?",
-        answer: "They feared him",
+        answer: "They feared Joshua",
     },
     {
         prompt: "According to Joshua 4:18, when did the waters of the Jordan return to their place and overflow the banks?",
-        answer: "When the soles of the priests' feet touched the dry land",
+        answer: "When the soles of the priests' feet touched dry land",
     },
     {
         prompt: "According to Joshua 4:19, where did the people camp when they came up from the Jordan?",
@@ -109,10 +109,10 @@ export const questions = [
     },
     {
         prompt: "According to Joshua 4:19, Gilgal is located on which border of Jericho?",
-        answer: "East border",
+        answer: "Eastern border",
     },
     {
-        prompt: "According to Joshua 4:23, what body of water other than the Jordan did God dry up so people could cross?",
+        prompt: "According to Joshua 4:23, what body of water other than the Jordan did God dry up so Israel would cross?",
         answer: "The Red Sea",
     },
     {
